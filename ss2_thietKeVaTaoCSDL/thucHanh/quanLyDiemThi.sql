@@ -23,3 +23,14 @@ primary key (ma_hs, ma_mh),
 foreign key(ma_hs) references hocsinh(ma_hs),
 foreign key(ma_mh) references monhoc(ma_mh)
 );
+
+CREATE TABLE giaovien(
+    ma_gv VARCHAR(20) PRIMARY KEY,
+    ten_gv VARCHAR(20),
+    sdt VARCHAR(10)
+);
+
+
+ALTER TABLE monhoc ADD ma_gv VARCHAR(20);
+ALTER TABLE monhoc ADD CONSTRAINT FK_ma_gv FOREIGN KEY (ma_gv) REFERENCES giaovien(ma_gv);
+
