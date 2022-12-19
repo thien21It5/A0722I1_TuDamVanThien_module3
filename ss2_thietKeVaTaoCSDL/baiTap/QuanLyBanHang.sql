@@ -27,6 +27,7 @@ create table OrderDetail(
 od_QTY varchar(50),
 o_ID int,
 p_ID int,
+primary key(o_ID,p_ID),
 foreign key(o_ID) references OOrder(o_ID),
 foreign key(p_ID) references Product(p_ID)
 );
