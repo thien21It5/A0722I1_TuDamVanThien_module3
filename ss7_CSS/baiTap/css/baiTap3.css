@@ -1,0 +1,67 @@
+body{
+    display: block;
+}
+
+.title{
+    width: 100%;
+    height: 550px;
+}
+
+.title .img{
+
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.title .img img {
+    padding-left: 30px;
+    width: 80%;
+}
+
+.title .header{
+    float: right;
+    width: 78%;
+    height: 100%;
+
+}
+
+h1{
+    text-align: center;
+    color: lightseagreen;
+    font-family: "Segoe UI";
+    position: sticky;
+}
+h4{
+    color: black;
+    font-family: "Segoe UI";
+}
+h3{
+    font-size: 120%;
+    font-family: "Segoe UI";
+    text-decoration: underline;
+    color: darkgreen;
+
+}
+h5{
+    font-size: 120%;
+    font-family: Arial;
+    color: saddlebrown;
+    padding: 0;
+    margin: 5px;
+}
+
+.content .text{
+    font-weight: bold;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+    background-color: wheat;
+}
+
+.content p{
+    font-family: Arial;
+    font-size: 20px;
+}
+
+
